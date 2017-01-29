@@ -1,0 +1,682 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html lang="en-gb" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html lang="en-gb" class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html lang="en-gb" class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb" class="no-js"><!--<![endif]--><head>
+        <title>
+    Django T-shirt | TestLadies - sandbox
+</title>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="created" content="15th Jan 2017 04:06" />
+        <meta name="description" content="&#10;    &#10;" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="robots" content="NOARCHIVE,NOCACHE" />
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        
+            <link rel="shortcut icon" href="/static/oscar/favicon.ico" />
+        
+
+        
+        
+    
+    
+        <link rel="stylesheet" type="text/css" href="/static/oscar/css/styles.css" />
+    
+    <link rel="stylesheet" href="/static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="/static/oscar/css/datetimepicker.css" />
+
+
+        
+        
+
+        
+
+        
+            
+            
+
+        
+    </head>
+
+    <body id="default" class="default">
+        
+        
+    
+    
+
+<div id="top_page" class="navbar navbar-default navbar-static-top accounts">
+    
+    <div class="navbar-header">
+        <a class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target=".account-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+    </div>
+
+    <div class="navbar-collapse account-collapse collapse">
+        <div class="container-fluid">
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        
+                            <a href="/accounts/"><i class="icon-user"></i> Account</a>
+                        
+                    </li>
+                    
+                    <li><a id="logout_link" href="/accounts/logout/"><i class="icon-signout"></i> Logout</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    
+    <header class="header container-fluid">
+        <div class="page_inner">
+            <div class="row">
+                <div class="col-sm-7 h1"><a href="/catalogue/">TestLadies</a><small> sandbox</small></div>
+
+                
+                
+
+
+<div class="basket-mini pull-right hidden-xs">
+    <strong>Basket total:</strong>
+    
+        £15.00
+    
+
+    <span class="btn-group">
+        <a class="btn btn-default" href="/basket/">View basket</a>
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+            <li>
+
+
+
+
+
+
+<ul class="basket-mini-item list-unstyled">
+    
+        
+            <li>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="image_container">
+                            
+                                
+                                <a href="/catalogue/django-t-shirt_10/"><img class="thumbnail" src="/media/cache/e2/92/e292f1329ccfc332f343e8382f514141.jpg" alt="Django T-shirt" /></a>
+                                
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <p><strong><a href="/catalogue/django-t-shirt_10/">Django T-shirt (Size: Medium)</a></strong></p>
+                    </div>
+                    <div class="col-sm-1 align-center"><strong>Qty</strong> 1</div>
+                    <div class="col-sm-3 price_color align-right">£15.00</div>
+                </div>
+            </li>
+        
+        <li class="form-group form-actions">
+            <p class="align-right">
+                
+                    <small>Total: £15.00</small> 
+                
+            </p>
+            <a href="/basket/" class="btn btn-info btn-sm">View basket</a>
+            <a href="/checkout/" class="btn btn-primary btn-sm pull-right"><i class="icon-shopping-cart"></i> Checkout</a>
+        </li>
+    
+</ul>
+</li>
+        </ul>
+    </span>
+</div>
+            </div>
+        </div>
+        
+            
+
+
+
+<div class="navbar primary navbar-static-top navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header pull-right">
+            
+            <a class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target=".primary-collapse">
+                <span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+            </a>
+        </div>
+
+        <a class="btn btn-default navbar-btn btn-cart navbar-right visible-xs-inline-block" href="/basket/">
+            <i class="icon-shopping-cart"></i>
+            Basket
+            
+                
+                    
+                        Total: £15.00
+                    
+                
+            
+        </a>
+
+
+        <div class="navbar-collapse primary-collapse collapse">
+            
+                <ul id="browse" class="nav navbar-nav">
+                    <li class="dropdown active ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Browse store
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" data-navigation="dropdown-menu">
+                            
+                            <li><a tabindex="-1" href="/catalogue/">All products</a></li>
+                            
+                                <li class="divider"></li>
+                                
+                                    
+                                                <li><a tabindex="-1" href="/catalogue/category/clothing_1/">Clothing</a></li>
+                                            
+
+                                            
+                                
+                                    
+                                        <li class="dropdown-submenu">
+                                            <a tabindex="-1" href="/catalogue/category/books_2/">Books</a>
+                                            <ul class="dropdown-menu">
+                                            
+
+                                            
+                                
+                                    
+                                                <li><a tabindex="-1" href="/catalogue/category/books/fiction_3/">Fiction</a></li>
+                                            
+
+                                            
+                                
+                                    
+                                                <li><a tabindex="-1" href="/catalogue/category/books/non-fiction_5/">Non-Fiction</a></li>
+                                            
+
+                                            
+                                                </ul></li>
+                                            
+                                
+                            
+                            <li class="divider"></li>
+                            
+                                <li><a href="/offers/">Offers</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    
+                </ul>
+            
+            
+
+<form method="get" action="/search/" class="navbar-form navbar-right">
+    <div class="form-group">
+        <input class="form-control" id="id_q" name="q" placeholder="Search" tabindex="1" type="search" />
+    </div>
+    <input type="submit" value="Search" class="btn btn-default" />
+</form>
+
+        </div><!-- /navbar-collapse -->
+    </div>
+</div><!-- /navbar -->
+
+        
+    </header>
+
+    
+    
+        <div class="container-fluid page">
+            <div class="page_inner">
+                
+<ul class="breadcrumb">
+    <li>
+        <a href="/catalogue/">Home</a>
+    </li>
+    
+        
+        <li>
+            <a href="/catalogue/category/clothing_1/">Clothing</a>
+        </li>
+        
+        <li class="active">Django T-shirt</li>
+
+        
+        
+    
+</ul>
+
+                
+
+                
+
+
+
+<div id="messages">
+
+    
+    <div class="alert alert-safe alert-noicon alert-success  fade in">
+            <a class="close" data-dismiss="alert" href="#">×</a>
+            <div class="alertinner ">
+                
+                
+                    
+
+
+    
+    <strong>Django T-shirt</strong> has been added to your basket.
+    
+
+
+                
+
+                
+            </div>
+        </div>
+    
+    <div class="alert alert-safe alert-noicon alert-success  fade in">
+            <a class="close" data-dismiss="alert" href="#">×</a>
+            <div class="alertinner ">
+                
+                
+                    
+
+
+Your basket now qualifies for the 
+<strong>Deferred benefit offer</strong> offer.
+
+
+                
+
+                
+            </div>
+        </div>
+    
+    <div class="alert alert-safe alert-noicon alert-info  fade in">
+            <a class="close" data-dismiss="alert" href="#">×</a>
+            <div class="alertinner ">
+                
+                
+                    
+
+
+<p>
+    
+        
+            
+            Your basket total is now <strong>£15.00</strong>
+            
+        
+    
+</p>
+
+
+<p>
+    <a href="/basket/" class="btn btn-info">View basket</a>
+    <a href="/checkout/" class="btn btn-info">Checkout now</a>
+</p>
+
+
+                
+
+                
+            </div>
+        </div>
+    
+
+</div>
+
+                
+                <div class="content">
+                    
+
+                    
+                    <div id="promotions">
+                        
+                    </div>
+
+                    
+                    <div id="content_inner">
+
+<article class="product_page"><!-- Start of product page -->
+
+    <div class="row">
+
+        
+        <div class="col-sm-6">
+            
+
+
+
+
+    
+
+    
+
+        
+        <div id="product_gallery" class="carousel">
+            <div class="thumbnail">
+                <div class="carousel-inner">
+                    <div class="item active">
+                    
+                        
+                            <img src="/media/cache/88/15/8815be9ccff2149353f59db0b9350da7.jpg" alt="Django T-shirt" />
+                        
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+
+        </div>
+        
+
+        
+        <div class="col-sm-6 product_main">
+            
+            
+            <h1>Django T-shirt</h1>
+
+            
+                
+
+
+
+
+
+
+    
+        <p class="price_color">£15.00</p>
+    
+
+<p class="available availability">
+    <i class="icon-ok"></i>
+    
+        Available
+    
+</p>
+
+            
+
+            
+                
+
+
+
+    <p>
+
+
+
+    <a id="write_review" href="/catalogue/django-t-shirt_8/reviews/add/#addreview" class="btn btn-success btn-sm">
+        Write a review
+    </a>
+
+</p>
+
+            
+
+            <hr />
+
+            
+                
+
+
+
+
+
+
+
+    
+    <form id="add_to_basket_form" action="/basket/add/8/" method="post" class="add-to-basket">
+        <input type="hidden" name="csrfmiddlewaretoken" value="j1qLZfez5YuDXzRqfvtyYP6bYEczsP0d" />
+        
+
+
+
+
+
+
+    
+
+
+
+    <input id="id_quantity" name="quantity" type="hidden" value="1" />
+
+
+
+    
+
+
+
+    
+    
+
+    
+        <div class="form-group ">
+
+            
+                
+                    <label for="id_child_id" class=" control-label required">
+                        Variant
+                    </label>
+                
+            
+
+            
+                <div class="">
+                    
+                        
+                            <select class="form-control" id="id_child_id" name="child_id">
+<option value="11" disabled="disabled">Size: Large</option>
+<option value="10">Size: Medium</option>
+<option value="9">Size: Small</option>
+</select>
+                        
+                    
+
+                    
+                        
+                    
+
+                    
+                        
+                    
+                </div>
+            
+        </div>
+    
+
+
+
+
+        <button type="submit" class="btn btn-lg btn-primary btn-add-to-basket" value="Add to basket" data-loading-text="Adding...">Add to basket</button>
+    </form>
+    
+        
+
+
+
+    
+        
+        
+        
+            
+            <form id="add_to_wishlist_form" action="/accounts/wishlists/add/8/" method="post" class="btn-wishlist">
+                <input type="hidden" name="csrfmiddlewaretoken" value="j1qLZfez5YuDXzRqfvtyYP6bYEczsP0d" />
+                <button type="submit" class="btn btn-lg" data-loading-text="Adding...">Add to wish list</button>
+            </form>
+        
+
+        
+    
+
+
+    
+
+
+            
+        </div><!-- /col-sm-6 -->
+        
+
+    </div><!-- /row -->
+
+    
+        
+    
+
+    
+    <div class="sub-header">
+        <h2>Product Information</h2>
+    </div>
+    <table class="table table-striped">
+        
+        <tbody><tr>
+            <th>Product Type</th><td>T-shirt</td>
+        </tr>
+
+        
+        
+            <tr>
+                <th>Price (excl. tax)</th><td>£15.00</td>
+            </tr>
+            
+                <tr>
+                    <th>Price (incl. tax)</th><td>£15.00</td>
+                </tr>
+                <tr>
+                    <th>Tax</th><td>£0.00</td>
+                </tr>
+            
+            <tr>
+                <th>Availability</th>
+                <td>Available</td>
+            </tr>
+        
+        
+        
+            <tr>
+                <th>Number of reviews</th>
+                <td>0</td>
+            </tr>
+        
+    </tbody></table>
+    
+
+    
+        
+        <section>
+            <div id="reviews" class="sub-header">
+                
+                <h2>Customer Reviews</h2>
+            </div>
+
+            
+                <p>
+                    
+                        
+                            This product does not have any reviews yet -
+                            <a href="/catalogue/django-t-shirt_8/reviews/add/#addreview">be the first to write one</a>.
+                        
+                    
+                </p>
+            
+        </section>
+        
+    
+
+    
+        
+    
+
+    
+
+
+
+    
+
+
+
+</article><!-- End of product page -->
+</div>
+                </div>
+            </div>
+        </div>
+    
+
+    
+<footer class="footer container-fluid">
+    
+        
+    
+</footer>
+
+
+        
+        
+  
+            <!-- jQuery -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script>window.jQuery || document.write('&lt;script src="/static/oscar/js/jquery/jquery-1.9.1.min.js"&gt;&lt;\/script&gt;')</script>
+        
+  
+
+
+        
+        
+    
+        
+    <!-- Twitter Bootstrap -->
+    <script type="text/javascript" src="/static/oscar/js/bootstrap3/bootstrap.min.js"></script>
+    <!-- Oscar -->
+    <script src="/static/oscar/js/oscar/ui.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="/static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js" type="text/javascript" charset="utf-8"></script>
+
+
+        
+        
+    
+    
+
+    
+
+
+
+        
+        <script type="text/javascript">
+            $(function() {
+                
+    
+    oscar.init();
+
+            });
+        </script>
+
+        
+        <!-- Version: N/A -->
+    
+
+</body></html>
