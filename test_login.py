@@ -23,7 +23,7 @@ def step_2_1_2 (selenium):
     element.click()
 
 def step_2_1_3 (selenium, variables):
-    # input log in details
+    # input correct log in details
     username = selenium.find_element_by_id('id_login-username').send_keys(variables['username'])
     password = selenium.find_element_by_id("id_login-password").send_keys(variables['password'])
 
